@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>Diatron - Lots to prevent, Less to spend</title>
@@ -11,35 +10,26 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://diatron.netlify.app/">
+    <meta property="og:url" content="https://diatronhealth.com/">
     <meta property="og:title" content="Diatron - Lots to prevent, Less to spend">
     <meta property="og:description" content="Harnessing the power of behavioral science, mobile computing, and data science to provide best possible and cost effective care for people living with/ preventing chronic conditions and make healthy habits stick.">
     <meta property="og:image" content="https://res.cloudinary.com/bhankypsalm/image/upload/v1607957223/DiatronBanner_n9woys.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://diatron.netlify.app/">
+    <meta property="twitter:url" content="https://diatronhealth.com/">
     <meta property="twitter:title" content="Diatron - Lots to prevent, Less to spend">
     <meta property="twitter:description" content="Harnessing the power of behavioral science, mobile computing, and data science to provide best possible and cost effective care for people living with/ preventing chronic conditions and make healthy habits stick.">
     <meta property="twitter:image" content="https://res.cloudinary.com/bhankypsalm/image/upload/v1607957223/DiatronBanner_n9woys.png">
-    <!-- <meta name="email" content="shreethemes@gmail.com" /> -->
-    <meta name="website" content="http://diatron.netlify.app" />
+    <meta name="website" content="https://diatronhealth.com" />
     <meta name="Version" content="v1.0.0" />
-    <!-- favicon -->
-    <link rel="shortcut icon" href="images/logo-icon.svg">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <!-- Magnific -->
-    <link href="css/magnific-popup.css" rel="stylesheet" type="text/css" />
-    <!-- Icons -->
-    <link href="css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
-    <!-- Slider -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <!-- Main Css -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" id="theme-opt" />
-    <link href="css/colors/default.css" rel="stylesheet" id="color-opt">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="shortcut icon" href="assets/img/logo-icon.svg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
     <script
             type="text/javascript"
             src="https://app.termly.io/embed.min.js"
@@ -49,69 +39,485 @@
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/7e9e9a66cf30a814f12cb2066/d98d77d414297b6ca68c3cf40.js");</script>
     <script src="//code.tidio.co/ccba0zxkdtx5cmuz2uqetn34eaziyvne.js" async></script>
 </head>
-
 <body>
-<section>
-    <div class="text-center mt-4">
-        <img src="images/dia-logo.svg" class="" height="100" alt="">
+<header>
+    <div class="bg-warning py-2" id="announcement">
+        <span class="d-flex justify-content-center mb-0">Be the first to know! <span onclick="earlyAccess()" class="ml-2 text-primary cursor"> click here</span> 🎉 </span>
+        <div class="float-right cursor" style="margin-top: -25px" onclick="hideAnnouncement()"><img src="./assets/img/times.svg" style="height: 20px" alt="" class="img-fluid"></div>
     </div>
-</section>
 
-<section class="" id="believe">
+    <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="/"><img src="./assets/img/dia-logo.svg" class="img-fluid header-logo" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-md-flex justify-content-md-center ml-md-n5 nav-col" id="navbarNavAltMarkup">
+                <div class="navbar-nav text-uppercase">
+                    <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#benefits">Benefits</a>
+                    <a class="nav-item nav-link" href="#individual">Individual</a>
+                    <a class="nav-item nav-link" href="#employer">Employer</a>
+                </div>
+                <button class="btn btn-primary d-block d-md-none" onclick="earlyAccess()">Get early access 🎉</button>
+            </div>
+            <button onclick="earlyAccess()" class="btn btn-primary d-none d-md-block">Get early access 🎉</button>
+        </div>
+    </nav>
+</header>
+<div class="hero-section">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 mt-">
-                <div class="text-center pb-5">
-<!--                    <h2 class="mb-4" style="color: #48A3FB">About Diatron Health</h2>-->
-                    <p class="para-desc text-left mx-auto">
-                        African health systems are failing to meet the needs of people with chronic diseases,
-                        which results in a high level of inconvenience, poor outcomes, and high costs.
-                    </p>
-                    <p class="para-desc text-left mx-auto">
-                        At Diatron Health, we are reimagining chronic disease management with the patient at the centre
-                        and re-establishing primary care as the foundation for chronic disease management. Many chronic
-                        conditions can, and should, be managed from home, and we are working towards that future.
-                    </p>
-                    <p class="para-desc text-left mx-auto">
-                        Diatron Health is redesigning chronic disease care for people with chronic diseases,
-                        offering them a simpler, more convenient, and less stressful experience.
-                    </p>
-                    <p class="para-desc text-left mx-auto">
-                        By choosing Diatron Health, people preventing/managing chronic condition will find better care.
+        <div class="d-md-flex align-items-center">
+            <div class="col-md-6 pl-0">
+                <h1 class="hero-header pt-3">
+                    Personalized care for mental and physical health
+                </h1>
+                <p class="more-info">
+                    Your complete solution for managing diabetes, high blood pressure, heart health, weight and mental health.
+                </p>
+                <div class="d-flex">
+                    <!--                    <button onclick="earlyAccess()" class="btn btn-white d-none d-md-block">Get early access 🎉</button>-->
+                    <div class="cursor" onclick="earlyAccess()">
+                        <img src="./assets/img/play-store.svg" alt="" class="mr-4 img-fluid">
+                    </div>
+                    <div class="cursor" onclick="earlyAccess()">
+                        <img src="./assets/img/app-store.svg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 offset-md-3" style="margin-top: 3rem">
+                <img src="./assets/img/app-main.png" alt="" class="img-fluid mt-3 banner-iage">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="container mt-5 mb-5">
+    <h3 class="how_it_works text-center mt-3 pt-5 mb-0">
+        How It Works
+    </h3>
+    <div class="border-under"></div>
+    <div class="row" style="margin-top: 80px; margin-bottom: 80px">
+        <div class="col-md-3 mb-5">
+            <div class="work-card">
+                <div class="card">
+                    <div class="work-cover">
+                        <div class="cover-border">
+                            <span class="cover-count">1</span>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3 mt-5">
+                        <img src="assets/img/how-it-works/download.png" alt="download" class="img-works">
+                    </div>
+                    <h2 class="work-title mb-3">Download the app</h2>
+                    <p class="text-center">
+                        Complete a simple 1-minute online
+                        <a class="underline-none" href="https://mailchi.mp/1c449e56047c/earlyaccess">form</a>
+                        to be eligible as an early user.
                     </p>
                 </div>
             </div>
-            <!--end col-->
+        </div>
+        <div class="col-md-3 mb-5">
+            <div class="work-card">
+                <div class="card">
+                    <div class="work-cover">
+                        <div class="cover-border">
+                            <span class="cover-count">2</span>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3 mt-5">
+                        <img src="assets/img/how-it-works/program.png" alt="download" class="img-works">
+                    </div>
+                    <h2 class="work-title mb-3">Select a program</h2>
+                    <p class="text-center">
+                        Choose a program that fit your health care needs.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-5">
+            <div class="work-card">
+                <div class="card">
+                    <div class="work-cover">
+                        <div class="cover-border">
+                            <span class="cover-count">3</span>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3 mt-5">
+                        <img src="assets/img/how-it-works/medical-team.png" alt="download" class="img-works">
+                    </div>
+                    <h2 class="work-title mb-3">Meet your care team</h2>
+                    <p class="text-center">
+                        We’ll match you with a health care professional available 24/7 to you via call or chat.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-5">
+            <div class="work-card">
+                <div class="card">
+                    <div class="work-cover">
+                        <div class="cover-border">
+                            <span class="cover-count">4</span>
+                        </div>
+                    </div>
+                    <div class="text-center mb-3 mt-5">
+                        <img src="assets/img/how-it-works/personalized.png" alt="download" class="img-works">
+                    </div>
+                    <h2 class="work-title mb-3">Get personalized care</h2>
+                    <p class="text-center">
+                        Take advantage of the health management suggestions provided by your coach and the app.                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
-        <!--end row-->
 
-    <footer class="footer footer-bar">
-    <div class="container text-center">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-sm-6">
-                <div class="text-sm-left">
-                    <p class="mb-0">©
-                        <script>
-                            document.write(new Date().getFullYear());
-                        </script> Diatron Health.</p>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="text-sm-left text-md-right">
-                    <p class="mb-0">
-                        Contact: team@diatronhealth.com
+<section style="background: #EEF1FF">
+    <div class="container my-5 py-5">
+        <div class="d-flex justify-content-center align-items-center px-md-0">
+            <div class="">
+                <h3 class="how_it_works text-center">
+                    A holistic approach to care
+                </h3>
+                <div class="border-under"></div>
+                <div class="">
+                    <p class="mt-5 text-center holistic-container">
+                        It is common for mental health, nutrition, stress management, and other comorbidities or complications
+                        to be neglected when managing chronic conditions.
+                        The robust technology we offer makes it easy to deploy exactly what our users requires,
+                        whether you only need one solution or a comprehensive program to manage, prevent, and reverse chronic conditions.
                     </p>
                 </div>
+                <div class="">
+                    <div class="row mt-5 px-0 justify-content-center">
+                        <div class="col-md-3 text-center mb-5">
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <div class="img-me">
+                                        <img src="./assets/img/diabetes%201.svg" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="prog-title">Diabetes Management</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center mb-5">
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <div class="img-me">
+                                        <img src="./assets/img/blood-pressure-gauge%201.png" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="prog-title">Healthy blood pressure</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center mb-5">
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <div class="img-me">
+                                        <img src="./assets/img/Group%20(2).svg" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="prog-title">Weight Management</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 text-center mb-5">
+                            <div class="d-flex justify-content-center">
+                                <div>
+                                    <div class="img-me">
+                                        <img src="./assets/img/Group%20(3).svg" alt="" class="img-fluid">
+                                    </div>
+                                    <p class="prog-title">Behavioural Health</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="container" id="benefits">
+    <h3 class="how_it_works text-center mt-3 pt-5 mb-0">
+        What our members get from our programs
+    </h3>
+    <div class="border-under"></div>
+    <div class="row justify-content-center mt-5" id="benefit1">
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/coach.svg" alt="dedicated health coach" class="img-fluid img-program">
+            <h4 class="program-title">Dedicated health coach</h4>
+            <p class="program-description">No lines at the hospital or appointment required, talk to our coaches anytime or request a callback.</p>
+        </div>
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/integration.svg" alt="integration" class="img-fluid img-program">
+            <h4 class="program-title">Integration</h4>
+            <p class="program-description">
+                Integrate with your IoT medical devices like glucometers to track and make health data available in real-time.
+            </p>
+        </div>
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/alert.svg" alt="alert system" class="img-fluid img-program">
+            <h4 class="program-title">Alert System</h4>
+            <p class="program-description">Make your loved ones and caregivers worry less. Provide progress reports, alert them in case of an emergency.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/personalized-learning.svg" alt="personalized learning" class="img-fluid img-program">
+            <h4 class="program-title">Personalized learning</h4>
+            <p class="program-description">Learning is customized to meet each individual's strengths, needs, goals, interests, and learning style.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/predictive-analysis.svg" alt="predictive analysis" class="img-fluid img-program">
+            <h4 class="program-title">Predictive analysis</h4>
+            <p class="program-description">Our AI bot notifies you of the future and provides personalized medical advice.</p>
+        </div>
+    </div>
+    <div class="row justify-content-center mt-5 px-0 d-none" id="benefit2">
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/continous-monitoring.svg" alt="continuos monitoring" class="img-fluid img-program">
+            <h4 class="program-title">24/7 medical supervision</h4>
+            <p class="program-description">We ensure patients and their care team continuously stay connected, coordinating treatments and managing chronic medical conditions.</p>
+        </div>
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/community.svg" alt="community" class="img-fluid img-program">
+            <h4 class="program-title">Community</h4>
+            <p class="program-description">You can network with others experiencing the same thing through a private, exclusive forum.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/personalized-care.svg" alt="personalized care" class="img-fluid img-program">
+            <h4 class="program-title">Personalized care</h4>
+            <p class="program-description">You will receive personalized care plans that will encompass behaviour, lifestyle, and disease prevention strategies.</p>
+        </div>
+        <div class="col-md-4 mb-5 text-center">
+            <img src="assets/img/medication-refill.svg" alt="less medication" class="img-fluid img-program">
+            <h4 class="program-title">Less medication</h4>
+            <p class="program-description">Reduce your need for medication through all our benefits.</p>
+        </div>
+        <div class="col-md-4 text-center">
+            <img src="assets/img/real-time.svg" alt="real-time update" class="img-fluid img-program">
+            <h4 class="program-title">Real time update</h4>
+            <p class="program-description">Make your loved ones, health care provider worry less. Share real time data or progress updates.</p>
+        </div>
+    </div>
+
+    <div class="text-center my-5 pb-4" id="benefit1-btn">
+        <button onclick="showNextBenefit()" class="btn-more cursor">View more</button>
+    </div>
+    <div class="text-center my-5 pb-4 d-none" id="benefit2-btn">
+        <button class="btn-more cursor" onclick="showPreviousBenefit()">View Previous</button>
+    </div>
+</section>
+
+<section class="employer" id="employer">
+    <div class="container">
+        <h3 class="how_it_works text-center mt-3 pt-5 mb-0">
+            For Employers
+        </h3>
+        <div class="border-under"></div>
+        <div class="">
+            <div class="pt-5">
+                <h3 class="how_it_works font-weight-normal w-md-43">
+                    Healthy body, healthy minds, peak performance.
+                </h3>
+                <ul class="" style="padding-inline-start: 20px">
+                    <li class="mb-0 employer-benefit">Increase in employee retention</li>
+                    <li class="mb-0 employer-benefit">ROI from reduced health care spending</li>
+                    <!--                    <p class="mb-0">Help your employees take small steps toward better health.</p>-->
+                </ul>
+                <button class="btn btn-more cursor mt-2" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/diatronhealth/analyzing-needs-and-uncovering-values'});return false;">Learn more</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="container" id="individual">
+        <div class="container py-5">
+            <h3 class="how_it_works text-center mt-3 mb-0">
+                For Individual
+            </h3>
+            <div class="border-under"></div>
+            <div class="row py-5 mt-md-5 justify-content-between">
+                <div class="col-md-7">
+                    <img src="./assets/img/happy-woman.jpg" alt="" class="img-fluid" style="border-radius: 15px">
+                </div>
+                <div class="col-md-5 pl-0">
+                    <h3 class="how_it_works font-weight-normal">
+                        Personalized care for mental and physical care.
+                    </h3>
+                    <ul style="padding-inline-start: 20px">
+                        <li class="employer-benefit">Reverse and prevent chronic metabolic diseases for a healthier, happier you.</li>
+                        <li class="employer-benefit">Build healthy habits for lasting results</li>
+                        <li class="employer-benefit">On-demand support and motivation</li>
+                    </ul>
+                    <p>
+                        Whether you want to lose weight, reduce stress, improve your nutrition, or manage a chronic condition, Diatron Health can help.
+                    </p>
+                    <button class="btn btn-more cursor mt-4">Get started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="d-none d-md-block">
+    <div class="container">
+        <div class="cta">
+            <div class="d-flex align-items-center justify-content-between p-5">
+                <h1 class="cta-title">Take advantage of our health benefits now</h1>
+                <button onclick="earlyAccess()" class="btn cta-btn d-none d-md-block text-primary">Get early access 🎉</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" style="background: rgba(1, 27, 56, 0.9);">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2 order-1">
+                <a href="/" class="">
+                    <img src="./assets/img/footer-logo.svg" height="" alt="" class="img-fluid logo-footer">
+                </a>
+                <p class="text-white" style="font-size: 16px; line-height: 35px; margin-top: -11.3px">Revolutionizing Chronic condition care and making it accessible to all</p>
+                <ul class="list-unstyled social-icon social mb-0 mt-4">
+                    <li class="list-inline-item"><a href="https://twitter.com/diatron_health"><img src="./assets/img/twitter.svg" alt=""></a></li>
+                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><img src="./assets/img/facebook.svg" alt=""></a></li>
+                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><img src="./assets/img/linkedIn.svg" alt=""></a></li>
+                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><img src="./assets/img/instagram.svg" alt=""></a></li>
+                </ul>
+                <p class="mt-4">
+                    Contact: hello@diatronhealth.com
+                </p>
+                <!--end icon-->
+            </div>
+            <!--end col-->
+
+            <div class="col-lg-4 col-md-4 mr-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-5 order-md-2">
+                <h4 class="text-light footer-head">Newsletter</h4>
+                <p class="mt-4">Subscribe to our newsletter and stay updated</p>
+                <form>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="form-group">
+                                <input type="email" name="email" id="subscribeEmail" class="form-control pl-5 rounded" placeholder="input your email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="button" id="subscribe" name="send" class="btn btn-light btn-block shadow" onclick="subscribeToNewsletter()" value="Subscribe">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!--end col-->
+
+            <div class="col-lg-1 col-md-1 mr-5 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-3 order-md-2">
+                <h4 class="text-light footer-head">Solution</h4>
+                <ul class="list-unstyled footer-list mt-4">
+                    <li><a href="/#individual" class="text-foot">Individual</a></li>
+                    <li><a href="/#employer" class="text-foot">Employer</a></li>
+                </ul>
+            </div>
+            <!--end col-->
+
+            <div class="col-lg-2 col-md-2 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0 order-4 order-md-3">
+                <h4 class="text-light footer-head">Company</h4>
+                <ul class="list-unstyled footer-list mt-4">
+                    <li><a href="javascript:void(0)" class="text-foot check">Blog</a></li>
+                    <li><a href="privacy-policy.html" class="text-foot check">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <!--end col-->
         </div>
         <!--end row-->
     </div>
     <!--end container-->
 </footer>
 <!--end footer-->
-<!-- Footer End -->
-</body>
+<footer class="footer footer-bar" style="background: rgba(1, 27, 56, 0.9);">
+    <div class="container text-center">
+        <div class="row align-items-center justify-content-center text-uppercase">
+            <p class="mb-0">©
+                <script>
+                    document.write(new Date().getFullYear());
+                </script> Diatron Health.
+            </p>
+        </div>
+        <!--end row-->
+    </div>
+    <!--end container-->
+</footer>
 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.getElementById('navbar_top').classList.add('fixed-top');
+                document.getElementById('navbar_top').classList.add('header-shadow');
+                // add padding top to show content behind navbar
+                navbar_height = document.querySelector('.navbar').offsetHeight;
+                document.body.style.paddingTop = navbar_height + 'px';
+            } else {
+                document.getElementById('navbar_top').classList.remove('header-shadow');
+                document.getElementById('navbar_top').classList.remove('fixed-top');
+                // remove padding top from body
+                document.body.style.paddingTop = '0';
+            }
+        });
+    });
+</script>
+<script>
+    function hideAnnouncement() {
+        document.getElementById('announcement').classList.add('d-none');
+    }
+
+    function earlyAccess() {
+        window.open('https://mailchi.mp/1c449e56047c/earlyaccess', '_blank');
+    }
+
+    function showNextBenefit() {
+        document.getElementById('benefit2').classList.remove('d-none')
+        document.getElementById('benefit2-btn').classList.remove('d-none')
+        document.getElementById('benefit1').classList.remove('d-flex')
+        document.getElementById('benefit1-btn').classList.remove('d-block')
+        document.getElementById('benefit1').classList.add('d-none')
+        document.getElementById('benefit1-btn').classList.add('d-none')
+    }
+
+    function showPreviousBenefit() {
+        document.getElementById('benefit1').classList.add('d-flex')
+        document.getElementById('benefit1-btn').classList.add('d-block')
+        document.getElementById('benefit2').classList.remove('d-flex')
+        document.getElementById('benefit2-btn').classList.remove('d-block')
+        document.getElementById('benefit2').classList.add('d-none')
+        document.getElementById('benefit2-btn').classList.add('d-none')
+    }
+
+    $(function () {
+        $('#subscribe').attr('disabled', true);
+        $('#subscribeEmail').change(function () {
+            if ($('#subscribeEmail').val() !== '') {
+                $('#subscribe').attr('disabled', false);
+            } else {
+                $('#subscribe').attr('disabled', true);
+            }
+        });
+    });
+
+    function subscribeToNewsletter() {
+        const payload = {
+            email: $('#subscribeEmail').val(),
+            type: 'newsletter'
+        }
+    }
+
+    const dateEl = document.querySelector('#date');
+
+    dateEl.textContent = new Date().getFullYear();
+</script>
+
+</body>
 </html>
