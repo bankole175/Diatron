@@ -20,6 +20,10 @@ body {
     background: url("../../assets/img/main-bg.svg") no-repeat bottom;
 }
 
+.fw-600 {
+    font-weight: 600;
+}
+
 .w-70 {
     max-width: 65%;
 }
@@ -483,7 +487,7 @@ a {
 }
 
 li::marker {
-    color: #5369F8;
+    color: #43a3fb;
 }
 
 .cta {
@@ -588,3 +592,40 @@ li::marker {
 html {
     scroll-behavior: smooth;
 }
+
+/*blog*/
+.blog-img {
+    width: 450px;
+    height: 317px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.blog-h1 {
+    font-size: 1.875rem;
+    line-height: 35px;
+    font-weight: 700;
+}
+
+.blog-category {
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.full-blog-h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 60px;
+    font-style: normal;
+}
+
+@media screen and (max-width: 600px) {
+    .full-blog-h1 {
+        font-size: 2rem;
+        line-height: 47px;
+    }
+}
+
+.blog-sub-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 50px 0 15px;}
