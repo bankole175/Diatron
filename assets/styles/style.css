@@ -600,6 +600,10 @@ html {
     object-fit: cover;
     border-radius: 10px;
 }
+
+.blog-spacing  {
+    margin: 100px 0;
+}
 .blog-h1 {
     font-size: 1.875rem;
     line-height: 35px;
@@ -625,7 +629,7 @@ html {
     }
 
     .blog-img {
-        width: 320px;
+        /*width: 320px;*/
         height: 225px;
         margin-bottom: 15px;
     }
