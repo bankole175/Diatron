@@ -610,6 +610,11 @@ html {
     font-weight: 700;
 }
 
+a:hover {
+    text-decoration: none;
+    color: #48a3fb;
+}
+
 .blog-category {
     font-size: 20px;
     line-height: 27px;
