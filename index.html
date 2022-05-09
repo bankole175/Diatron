@@ -68,7 +68,7 @@
 </head>
 <body>
 <header>
-    <div class="bg-warning py-2" id="announcement">
+    <div class="bg-warning py-2 d-none" id="announcement">
         <span class="d-flex justify-content-center mb-0">Be the first to know! <span onclick="earlyAccess()" class="ml-2 text-primary cursor"> click here</span> 🎉 </span>
         <div class="float-right cursor" style="margin-top: -25px" onclick="hideAnnouncement()"><img src="./assets/img/times.svg" style="height: 20px" alt="" class="img-fluid"></div>
     </div>
@@ -86,9 +86,9 @@
                     <a class="nav-item nav-link" href="#individual">Individual</a>
                     <a class="nav-item nav-link" href="#employer">Employer</a>
                 </div>
-                <button class="btn btn-primary d-block d-md-none" onclick="earlyAccess()">Get early access 🎉</button>
+                <button class="btn btn-primary d-block d-md-none" onclick="earlyAccess()">Join Now <small>(beta)</small></button>
             </div>
-            <button onclick="earlyAccess()" class="btn btn-primary d-none d-md-block">Get early access 🎉</button>
+            <button onclick="earlyAccess()" class="btn btn-primary d-none d-md-block">Join Now <small>(beta)</small></button>
         </div>
     </nav>
 </header>
@@ -402,7 +402,7 @@
         <div class="cta">
             <div class="d-flex align-items-center justify-content-between p-5">
                 <h1 class="cta-title">Take advantage of our health benefits now</h1>
-                <button onclick="earlyAccess()" class="btn cta-btn d-none d-md-block text-primary">Get early access 🎉</button>
+                <button onclick="earlyAccess()" class="btn cta-btn d-none d-md-block text-primary">Join Now <small>(beta)</small></button>
             </div>
         </div>
     </div>
